@@ -1,0 +1,70 @@
+.logo{
+    width: 100px;
+    padding: 3px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    border: solid 2px black;
+}
+.header > ul{
+    list-style: none;
+    display: flex;
+    
+}
+.header > ul > li{
+    margin: 10px;
+}
+.card{
+    width: 250px;
+    /* border: 1px solid black; */
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(230, 230, 230);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+.card:hover{
+    box-shadow: 2px 2px gray;
+    transform: scale(1.05);
+}
+.card > img{
+    width: 100%;
+}
+.restaurant-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Search-bar > input{
+    width: 400px;
+    padding: 5px;
+    margin: 5px;
+}
+.Search-bar > input:hover,:focus{
+    outline: none;
+}
+.Search-bar > button{
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+    outline: none;
+}
+.shimmer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.shimmercard{
+    width: 250px;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(230, 230, 230);
+}
